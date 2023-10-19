@@ -1,12 +1,12 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 h1,
 h2,
 h3,
 .card-body > .card-title {
-  font-family: 'Lobster', cursive;
+  font-family: "Lobster", cursive;
 }
 
 .card-title {
@@ -31,6 +31,7 @@ h2 {
 
 .site-footer {
   background-image: linear-gradient(#cec8ff, white);
+
   padding: 20px 0;
   margin-top: 2rem;
 }
@@ -49,16 +50,15 @@ h2 {
 }
 
 .navbar-dark {
-  background-color: #ad1c1c;
-  background-image: linear-gradient(to right, #171617, #3b4687, #bda9c0);
+  background-color: #04460b;
+  /* background-image: linear-gradient(to right, #171617, #3b4687, #bda9c0); */
   margin-bottom: 3rem;
   min-height: 9rem;
 }
-#menu-link:hover{
+#menu-link:hover {
   text-decoration: underline;
   color: #171617;
   font-weight: bold;
-  
 }
 
 .page-enter {
@@ -82,6 +82,15 @@ h2 {
 }
 
 /* Added Section */
-#contactBtn{
+#contactBtn {
   margin-right: 5px;
+}
+
+#title {
+  text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a,
+    0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222,
+    0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a,
+    0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212,
+    0 22px 30px rgba(0, 0, 0, 0.9);
+  color: #e0dfdc;
 }

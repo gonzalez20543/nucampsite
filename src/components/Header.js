@@ -6,7 +6,6 @@ import {
   Nav,
   NavItem,
 } from "reactstrap";
-import NucampLogo from "../app/assets/img/logo.png";
 import TreeLogo from "../app/assets/img/trees-logo.png";
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
@@ -15,10 +14,10 @@ const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <Navbar dark color="primary" sticky="top" expand="md">
+    <Navbar dark  sticky="top" expand="md">
       <NavbarBrand href="/">
         <img src={TreeLogo} alt="nucamp logo" className="float-start" />
-        <h1 className="mt-1">Camping Trip</h1>
+        <h1 className="mt-1" id="title">Camping Trip</h1>
       </NavbarBrand>
       <NavbarToggler onClick={() => setMenuOpen(!menuOpen)} />
       <Collapse navbar isOpen={menuOpen}>
